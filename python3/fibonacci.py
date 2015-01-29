@@ -9,14 +9,14 @@ num = input('Input the number: ')
 
 answer = fibonacci(num)[0]
 
-print num,
+print (num, end=" ")
 if num == 1:
-    print 'st',
+    print ('st', end=" ")
 elif num == 2:
-    print 'nd',
+    print ('nd', end=" ")
 else:
-    print 'th',
+    print ('th', end=" ")
 
-print ' fibonacci number is: ',
-print answer
+print (' fibonacci number is: ', end=" ")
+print (answer)
 

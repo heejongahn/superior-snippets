@@ -66,5 +66,5 @@ fringe (0, 0, row, col)
 # Print out the answer matrix
 for ans_row in ans:
     for ans_element in ans_row:
-        print ans_element,
-    print ''
+        print (ans_element, end=" ")
+    print ('')
